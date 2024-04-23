@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 640px;
+    height: 32px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+header>h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+main {
+    margin: 30px 0px;
+    width: 640px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main>div {
+    display: flex;
+    flex-direction: column;
+}
+
+main>div>p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9F9F9F;
+    margin-bottom: 15px;
+}
+
+main>div>ul {
+    width: 260px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+    list-style: none;
+    color: #E5E5E5;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+main>div>ul li {
+    width: 65px;
+    list-style: none;
+    padding: 7px 0;
+    font-size: 12px;
+    margin: auto;
+    text-align: center;
+    border-left: 1px solid #E5E5E5;
+}
+
+main>div>ul li:first-child {
+    border-radius: 2.5px 0px 0px 2.5px;
+    border-left: 0px solid #E5E5E5;
+}
+
+main>div>ul li:last-child {
+    border-radius: 0px 2.5px 2.5px 0px;
+}
+
+main>div>ul li:hover {
+    background-color: #833AE0;
+}
+.activeli{
+    background-color: #833AE0;
+}
+main>div>div{
+    width: 260px;
+    height: 100px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px 11px;
+}
+main>div>div>p{
+color: #c6c6c6; 
+font-size: 12px;
+}
+main>div>div>input{
+    color: #000000; 
+    font-size: 32px;
+    border: 0px;
+    font-weight:400;
+}
