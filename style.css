@@ -102,3 +102,6 @@ main>div>div>input{
     border: 0px;
     font-weight:400;
 }
+li{
+    cursor: pointer;
+}
