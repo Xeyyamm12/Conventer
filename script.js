@@ -25,8 +25,8 @@ const calc = function (n) {
         })
     }else{
         rightinput.value =n;
-        leftp.textContent=1${leftactiveli.textContent} =1${leftactiveli.textContent}
-        rightp.textContent=1${leftactiveli.textContent} =1${leftactiveli.textContent}
+        leftp.textContent= `1 ${leftactiveli.textContent}  = 1 ${leftactiveli.textContent}`
+        rightp.textContent= `1  ${leftactiveli.textContent} = 1 ${leftactiveli.textContent}`
     }
 }
 leftbutton.forEach(item => {
@@ -41,7 +41,7 @@ leftbutton.forEach(item => {
             }
             }else{
                 const of= document.querySelector('.ofline img')
-document.querySelector('main').style.display='none'
+                document.querySelector('main').style.display='none'
 document.querySelector('header').style.display='none'
 of.style.display ="block"
             }
@@ -73,5 +73,5 @@ const of= document.querySelector('.ofline img')
 document.querySelector('main').style.display='none'
 document.querySelector('header').style.display='none'
 of.style.display ="block"
-    }
+}
 })
