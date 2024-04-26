@@ -71,7 +71,7 @@ leftinput.addEventListener("input", () => {
     offline();
   }
 });
-function offline() {
+ offline = ()=> {
   if (!window.navigator.onLine) {
     document.querySelector("main").style.display = "none";
     document.querySelector("header").style.display = "none";
